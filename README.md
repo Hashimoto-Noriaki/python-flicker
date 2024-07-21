@@ -20,13 +20,6 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
-
-### スクリプトの実行(画像)
-ここでは、monkey
-```
-python3 download.py monkey
-```
-
 ### 依存関係の再インストール
 ```
 deactivate
@@ -35,6 +28,11 @@ python3 -m venv venv
 source venv/bin/activate
 pip install flickrapi
 ```
+### スクリプトの実行(画像)
+keyとsecretを変更
 
-
+ここでは、monkey
+```
+python3 download.py monkey
+```
 
