@@ -33,6 +33,8 @@ keyとsecretを変更
 
 ここでは、monkey
 ```
+cd intro_deep_learning
 python3 download.py monkey
 ```
+
 
