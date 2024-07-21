@@ -21,11 +21,21 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-
-
 ### スクリプトの実行
 
 ```
 
 
 ```
+
+### 依存関係の再インストール
+```
+deactivate
+rm -rf venv
+python3 -m venv venv
+source venv/bin/activate
+pip install flickrapi
+```
+
+
+
